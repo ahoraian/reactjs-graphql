@@ -1,13 +1,14 @@
 import React from 'react';
 import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
-import Courses from './Courses';
+import Courses from './components/Courses';
 import logo from './logo.svg';
 
 import './App.css';
+import { apolloApi } from "./config/endpoints";
 
 const client = new ApolloClient({
-    uri: "https://api.graph.cool/simple/v1/ck23mrdpg52bd0153omip0oj2"
+    uri: apolloApi
 });
 
 const App = () => (

@@ -1,0 +1,1 @@
+export const apolloApi = 'https://api.graph.cool/simple/v1/ck23mrdpg52bd0153omip0oj2'

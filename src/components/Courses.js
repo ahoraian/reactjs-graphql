@@ -10,6 +10,7 @@ const Courses = () => (
             allCourses {
                 id
                 title
+                author
                 url
                 author
                 description
